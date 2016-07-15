@@ -3,12 +3,26 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+    <display-name>Moz Web Application</display-name>
+
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>/WEB-INF/applicationContext.xml</param-value>
     </context-param>
+    <context-param>
+        <param-name>import-scan-path</param-name>
+        <param-value>D:\\code\\laxton\\TestPath888</param-value>
+    </context-param>
+    <!--轮询间隔 单位毫秒-->
+    <context-param>
+        <param-name>import-scan-interval</param-name>
+        <param-value>5</param-value>
+    </context-param>
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>moz.common.SysContextListener</listener-class>
     </listener>
     <servlet>
         <servlet-name>dispatcher</servlet-name>
@@ -17,6 +31,6 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
-        <url-pattern>*.form</url-pattern>
+        <url-pattern>/</url-pattern>
     </servlet-mapping>
 </web-app>
