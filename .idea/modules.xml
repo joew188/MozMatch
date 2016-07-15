@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MozMatch.iml" filepath="$PROJECT_DIR$/.idea/modules/MozMatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MozMatch_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MozMatch_main.iml" group="MozMatch" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MozMatch_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MozMatch_test.iml" group="MozMatch" />
+      <module fileurl="file://$PROJECT_DIR$/MozWeb/MozWeb.iml" filepath="$PROJECT_DIR$/MozWeb/MozWeb.iml" />
+    </modules>
+  </component>
+</project>
