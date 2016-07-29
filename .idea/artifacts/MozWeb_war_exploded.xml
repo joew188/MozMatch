@@ -18,6 +18,36 @@
           <element id="library" level="project" name="Spring Data JPA-1.3.3" />
           <element id="library" level="project" name="Gradle: commons-io:commons-io:2.5" />
           <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="jna-4.0.0" />
+          <element id="library" level="project" name="idkit-java-main-2.11.0" />
+          <element id="library" level="project" name="sdk-commons-main-1.1.1" />
+          <element id="library" level="project" name="inno-afis-cli-4.1.0.8" />
+          <element id="library" level="project" name="inno-afis-java-client-4.1.0.8" />
+          <element id="library" level="project" name="inno-afis-model-4.1.0.8" />
+          <element id="library" level="project" name="jaxb2-basics-tools-0.6.4" />
+          <element id="library" level="project" name="jaxb2-basics-runtime-0.7.0" />
+          <element id="library" level="project" name="jaxrpc-api-1.1" />
+          <element id="library" level="project" name="activemq-client-5.10.0" />
+          <element id="library" level="project" name="jms-1.1" />
+          <element id="library" level="project" name="slf4j-api-1.7.6" />
+          <element id="library" level="project" name="logback-core-1.1.1" />
+          <element id="library" level="project" name="logback-classic-1.1.1" />
+          <element id="library" level="project" name="commons-lang3-3.4" />
+          <element id="library" level="project" name="commons-beanutils-1.7.0" />
+          <element id="library" level="project" name="commons-codec-1.6" />
+          <element id="library" level="project" name="commons-logging-1.1.3" />
+          <element id="library" level="project" name="guava-16.0.1" />
+          <element id="library" level="project" name="hawtbuf-1.10" />
+          <element id="library" level="project" name="httpclient-4.3.6" />
+          <element id="library" level="project" name="httpclient-4.3.61" />
+          <element id="library" level="project" name="httpmime-4.3.6" />
+          <element id="library" level="project" name="management-api-1.1-rev-1" />
+          <element id="library" level="project" name="transaction-api-1.1" />
+          <element id="library" level="project" name="javaparser-1.0.8" />
+          <element id="library" level="project" name="jaxb2-basics-0.6.4" />
+          <element id="library" level="project" name="sqljdbc4" />
+          <element id="library" level="project" name="jaxb-api-2.2.7-facets-1.0.5" />
+          <element id="library" level="project" name="Gradle: org.logback-extensions:logback-ext-spring:0.1.4" />
         </element>
       </element>
     </root>

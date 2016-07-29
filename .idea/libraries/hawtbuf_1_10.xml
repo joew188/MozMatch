@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="jstl-1.2">
+  <library name="hawtbuf-1.10">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/jstl/jstl/1.2/jstl-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../client/java/lib/hawtbuf-1.10.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jaxb-api-2.2.7-facets-1.0.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../client/java/lib/jaxb-api-2.2.7-facets-1.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

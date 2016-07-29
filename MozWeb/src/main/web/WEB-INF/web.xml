@@ -3,15 +3,43 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
-    <display-name>Moz Web Application</display-name>
-
+    <!--<context-param>-->
+        <!--<param-name>contextConfigLocation</param-name>-->
+        <!--<param-value>/WEB-INF/applicationContext.xml</param-value>-->
+    <!--</context-param>-->
     <context-param>
-        <param-name>contextConfigLocation</param-name>
-        <param-value>/WEB-INF/applicationContext.xml</param-value>
+        <param-name>logbackConfigLocation</param-name>
+        <param-value>classpath:/conf/logback.xml</param-value>
+    </context-param>
+    <!--<context-param>-->
+        <!--<param-name>import-scan-path</param-name>-->
+        <!--<param-value>D:\\code\\laxton\\TestPath888</param-value>-->
+    <!--</context-param>-->
+    <context-param>
+        <param-name>import-response-host</param-name>
+        <param-value>devserver</param-value>
     </context-param>
     <context-param>
+        <param-name>import-response-user</param-name>
+        <param-value>sa</param-value>
+    </context-param>
+    <context-param>
+        <param-name>import-response-pwd</param-name>
+        <param-value>sw123456#</param-value>
+    </context-param>
+    <context-param>
+        <param-name>import-response-db</param-name>
+        <param-value>DccMZ_Ava</param-value>
+    </context-param>
+
+    <context-param>
         <param-name>import-scan-path</param-name>
-        <param-value>D:\\code\\laxton\\TestPath888</param-value>
+        <param-value>D:\\code\\test\\laxtongroup2\\laxtongroup\\templates</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>import-thread-num</param-name>
+        <param-value>30</param-value>
     </context-param>
     <!--轮询间隔 单位毫秒-->
     <context-param>
@@ -20,6 +48,9 @@
     </context-param>
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>ch.qos.logback.ext.spring.web.LogbackConfigListener</listener-class>
     </listener>
     <listener>
         <listener-class>moz.common.SysContextListener</listener-class>

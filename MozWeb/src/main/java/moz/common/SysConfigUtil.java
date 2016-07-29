@@ -20,4 +20,5 @@ public class SysConfigUtil {
     public static String getNowString() {
         return(new java.text.SimpleDateFormat("yyyy-MM-dd hh:mm:ss")).format(new Date());
     }
+
 }

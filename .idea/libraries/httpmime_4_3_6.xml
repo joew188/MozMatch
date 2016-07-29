@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="jstl-1.2">
+  <library name="httpmime-4.3.6">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/jstl/jstl/1.2/jstl-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../client/java/lib/httpmime-4.3.6.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

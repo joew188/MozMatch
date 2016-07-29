@@ -18,6 +18,7 @@ public class FileListenerRunnable implements Runnable {
             m.start();
         } catch (Exception e) {
            // logger.error(new Date() + "xml文件监控服务错误：" + e.toString());
+            System.out.println(new Date() + "xml文件监控服务错误：" + e.toString());
         }
     }
 }

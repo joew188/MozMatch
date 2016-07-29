@@ -18,11 +18,12 @@ public class FileMonitor {
     }
 
     public void monitor(String path, FileAlterationListener listener) {
-        FileAlterationObserver observer = new FileAlterationObserver(new File(path),
-                FileFilterUtils.and(
-                        FileFilterUtils.fileFileFilter()
-                        ,FileFilterUtils.suffixFileFilter(".vre")
-                ));
+//        FileAlterationObserver observer = new FileAlterationObserver(new File(path),
+//                FileFilterUtils.and(
+//                        FileFilterUtils.fileFileFilter()
+//                        ,FileFilterUtils.suffixFileFilter(".vre")
+//                ));
+        FileAlterationObserver observer = new FileAlterationObserver(new File(path));
         observer.addListener(listener);
         monitor.addObserver(observer);
 
